@@ -1,21 +1,17 @@
 package Prototype;
 
-public class Car implements IPrototype {
-    private String brand;
-    private String model;
-    private String color;
+public class Car extends Vehicle {
+
     private int topSpeed;
 
-    public Car(){}
+
     public Car(Car car){
-        this.brand = car.brand;
-        this.model = car.model;
-        this.color = car.color;
+        super(car);
         this.topSpeed = car.topSpeed;
     }
-
-    @Override
-    public Car clone() {
+    public Car clone(){
         return new Car(this);
     }
+
+
 }
