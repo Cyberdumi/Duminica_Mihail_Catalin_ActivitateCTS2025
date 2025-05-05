@@ -10,19 +10,19 @@ public class InsuranceMessagingVisitor implements Visitor {
     }
 
     public void visit(Bank bank) {
-        System.out.println("Sending mail about theft insurance to " + bank.getName());
+        System.out.println(" " + bank.getName());
     }
 
     public void visit(Company company) {
-        System.out.println("Sending employees and equipment insurance mail to " + company.getName());
+        System.out.println("" + company.getName());
     }
 
     public void visit(Resident resident) {
-        System.out.println("Sending mail about medical insurance to " + resident.getName());
+        System.out.println("" + resident.getName());
     }
 
     public void visit(Restaurant restaurant) {
-        System.out.println("Sending mail about fire and food insurance to " + restaurant.getName());
+        System.out.println("" + restaurant.getName());
     }
 
 }
