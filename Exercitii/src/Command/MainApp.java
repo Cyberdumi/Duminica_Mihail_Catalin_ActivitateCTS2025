@@ -15,7 +15,7 @@ public class MainApp {
         room.executeCommand();
         System.out.println(room.curtainsOpen());
 
-        System.out.println("==========================================");
+        System.out.println("");
 
         FloorLamp lamp = new FloorLamp();
         lamp.setCommand(new SwitchLightsCommand(lamp.getLight()));

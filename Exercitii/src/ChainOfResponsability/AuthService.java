@@ -12,8 +12,7 @@ public class AuthService {
 
     public boolean logIn(String email, String password) {
         if (handler.handle(email, password)) {
-            System.out.println("Authorization was successful!");
-            // Do stuff for authorized users
+            System.out.println("Autorizat cu succes");
             return true;
         }
         return false;
