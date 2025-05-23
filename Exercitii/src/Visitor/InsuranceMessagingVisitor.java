@@ -1,4 +1,8 @@
 package Visitor;
+import Bridge.Abstractions.Restaurant;
+import Visitor.models.Company;
+import Visitor.models.Resident;
+
 import java.util.List;
 
 public class InsuranceMessagingVisitor implements Visitor {
