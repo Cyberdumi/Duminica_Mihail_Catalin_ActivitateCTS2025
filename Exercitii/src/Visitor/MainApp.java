@@ -1,5 +1,7 @@
 package Visitor;
 
+import Visitor.models.*;
+
 import java.util.List;
 
 public class MainApp {

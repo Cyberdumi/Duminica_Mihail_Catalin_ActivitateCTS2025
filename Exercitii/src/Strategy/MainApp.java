@@ -1,5 +1,8 @@
 package Strategy;
 
+import Strategy.Strategy.PaymentByCreditCard;
+import Strategy.Strategy.PaymentByPayPal;
+
 public class MainApp {
 
 

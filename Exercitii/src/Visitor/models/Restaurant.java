@@ -1,6 +1,7 @@
 package Visitor.models;
 
-import lombok.Getter;
+
+import Visitor.Visitor;
 
 public class Restaurant extends Client {
 
@@ -14,6 +15,7 @@ public class Restaurant extends Client {
     @Override
     public void accept(Visitor visitor) {
         visitor.visit(this);
-    }
 
+
+    }
 }

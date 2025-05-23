@@ -1,5 +1,7 @@
 package Visitor;
 import Bridge.Abstractions.Restaurant;
+import Visitor.models.Bank;
+import Visitor.models.Client;
 import Visitor.models.Company;
 import Visitor.models.Resident;
 
@@ -24,6 +26,12 @@ public class InsuranceMessagingVisitor implements Visitor {
     public void visit(Resident resident) {
         System.out.println("" + resident.getName());
     }
+
+    @Override
+    public void visit(Visitor.models.Restaurant restaurant) {
+
+    }
+
 
     public void visit(Restaurant restaurant) {
         System.out.println("" + restaurant.getName());

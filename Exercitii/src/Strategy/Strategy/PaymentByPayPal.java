@@ -1,6 +1,6 @@
 package Strategy.Strategy;
 
-public class PaymentByPayPal implements PaymentStrategy {
+public class PaymentByPayPal extends PaymentByCreditCard implements PaymentStrategy {
 
     private String email;
     private String password;

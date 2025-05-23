@@ -1,8 +1,8 @@
 package Visitor.models;
 
-import lombok.Getter;
 
-@Getter
+import Visitor.Visitor;
+
 public class Bank extends Client {
 
     private final int branchesInsured;
@@ -17,4 +17,7 @@ public class Bank extends Client {
         visitor.visit(this);
     }
 
+    public String getName() {
+        return "";
+    }
 }

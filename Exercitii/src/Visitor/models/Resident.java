@@ -1,7 +1,8 @@
 package Visitor.models;
-import lombok.Getter;
 
-@Getter
+
+import Visitor.Visitor;
+
 public class Resident extends Client {
 
     private final String insuranceClass;
@@ -16,4 +17,7 @@ public class Resident extends Client {
         visitor.visit(this);
     }
 
+    public String getName() {
+        return "";
+    }
 }

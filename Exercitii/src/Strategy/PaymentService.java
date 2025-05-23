@@ -1,9 +1,9 @@
 package Strategy;
 
 
-import lombok.Setter;
+import Strategy.Strategy.PaymentByCreditCard;
+import Strategy.Strategy.PaymentStrategy;
 
-@Setter
 public class PaymentService {
 
     private int cost;
@@ -23,4 +23,6 @@ public class PaymentService {
         return includeDelivery ? cost + 10 : cost;
     }
 
+    public void setStrategy(PaymentByCreditCard paymentByCreditCard) {
+    }
 }

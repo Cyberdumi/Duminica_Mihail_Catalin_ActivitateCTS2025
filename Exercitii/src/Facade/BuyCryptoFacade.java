@@ -1,5 +1,7 @@
 package Facade;
 
+import Facade.thirdparty.*;
+
 public class BuyCryptoFacade {
 
     public void buyCryptocurrency(double amount, String currency) {

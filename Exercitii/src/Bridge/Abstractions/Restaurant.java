@@ -23,4 +23,7 @@ public abstract class Restaurant {
         System.out.println("Order in Progress!");
     }
 
+    public String getName() {
+        return "";
+    }
 }
